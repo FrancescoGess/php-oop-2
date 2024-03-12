@@ -10,10 +10,11 @@
     $cats = new Category( 'cats', 'fa-solid fa-cat');
 
     //creo istranza delle altre classi
-    $product = new Product("Collare", 10.00, "https://img.joomcdn.net/e67b41454e6ddd7a993e4578396a8f0a387a61ab_original.jpeg", $dog, true);
-    $food = new Product("Croccantini", 35.00, "https://www.naturepetshop.it/wp-content/uploads/cibo-secco-per-cani-300x215.jpg", $dog, true);
-    $game = new Product("Pallina", 5.99, "https://staticgeopop.akamaized.net/wp-content/uploads/sites/32/2022/04/palle-tennis-come-vengono-fatte.jpg", $dog, true);
+    $product = new Product("Collare", 10.00, "https://img.joomcdn.net/e67b41454e6ddd7a993e4578396a8f0a387a61ab_original.jpeg", $dogs, true);
+    $food = new Product("Croccantini", 35.00, "https://www.naturepetshop.it/wp-content/uploads/cibo-secco-per-cani-300x215.jpg", $cats, true);
+    $game = new Product("Pallina", 5.99, "https://staticgeopop.akamaized.net/wp-content/uploads/sites/32/2022/04/palle-tennis-come-vengono-fatte.jpg", $dogs, true);
 
+    var_dump($product)
 ?>  
 
 <!DOCTYPE html>
