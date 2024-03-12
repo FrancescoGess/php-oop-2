@@ -8,7 +8,10 @@
 
     $dogs = new Category( 'dogs', 'fa-solid fa-dog');
     $cats = new Category( 'cats', 'fa-solid fa-cat');
-?>
+
+    //creo istranza delle altre classi
+    $product = new Product("Collare", 10.00, "https://img.joomcdn.net/e67b41454e6ddd7a993e4578396a8f0a387a61ab_original.jpeg", $dog, true, 15)
+?>  
 
 <!DOCTYPE html>
 <html lang="en">
